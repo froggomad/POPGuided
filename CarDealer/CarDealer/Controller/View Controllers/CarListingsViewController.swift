@@ -18,6 +18,9 @@ class CarListingsViewController: UIViewController {
         carArr.append(fusion)
         collectionView.delegate = self
         collectionView.dataSource = self
+        startCars()
+
+
         //        Stretch 2
         //        if let isDrivable = Car(drivable: fusion) {
         //            print(isDrivable.make)
@@ -29,6 +32,13 @@ class CarListingsViewController: UIViewController {
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 
+    }
+
+    // MARK: - Methods
+    func startCars() {
+        for car in carArr {
+            car.start()
+        }
     }
 }
 

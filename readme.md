@@ -1,6 +1,6 @@
 # Protocol Oriented Programming Guided Project
 
-# Directions
+## Directions
 
 ### Group Structure (MVC)
 
@@ -57,9 +57,12 @@
     - [ ]  Top Label: 8 top, center horizontally → Content View
     - [ ]  Btm Label: 8 btm, center horizontally → Content View
 
-View Controller
+### View Controller
 
 - [ ]  Connect CollectionView to ViewController
+
+### Custom Cell
+
 - [ ]  Right click View Group New File
     - [ ]  Make new UICollectionViewCell CocoaTouch file
     - [ ]  Name it VehicleCollectionViewCell
